@@ -2,6 +2,10 @@
 
 A compassionate platform designed to help caregivers of individuals with rare diseases navigate and access government assistance programs.
 
+## Live Demo
+
+Visit the live prototype: [CareConnect Platform](https://flourishing-bublanina-edbea7.netlify.app/)
+
 ## Features
 
 - **Empathetic Chatbot Assistant**: A friendly AI companion that guides users through the platform
@@ -9,19 +13,42 @@ A compassionate platform designed to help caregivers of individuals with rare di
 - **Personalized Dashboard**: Real-time tracking of program applications and next steps
 - **Support Resources**: Access to community support groups and educational resources
 
-## Getting Started
+## Prototype Notes
 
-1. Install dependencies:
-```bash
-npm install
-```
+This prototype demonstrates the core user journey for caregivers:
+1. Initial welcome and introduction
+2. Guided onboarding process
+3. Personalized dashboard with program recommendations
+4. Real-time chat support
 
-2. Start the development server:
-```bash
-npm start
-```
+The prototype uses synthetic data to demonstrate the user experience. Some features are simulated:
+- Program matching uses pre-defined sample programs
+- Chat responses are templated
+- Form submissions display success messages without backend processing
 
-The application will open in your default browser at `http://localhost:3000`.
+## Local Development Setup
+
+1. Prerequisites:
+   - Node.js (v14 or higher)
+   - npm (comes with Node.js)
+
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/hamzehbhamdan/CareConnect.git
+   cd CareConnect
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Technology Stack
 
@@ -50,6 +77,13 @@ src/
 - **Progressive Disclosure**: Information is presented in digestible chunks
 - **Clear Navigation**: Users always know where they are and what's next
 - **Accessibility**: Built with WCAG guidelines in mind
+
+## Deployment
+
+The project is configured for deployment on Netlify:
+1. Fork or clone this repository
+2. Connect your GitHub repository to Netlify
+3. Netlify will automatically deploy from the main branch
 
 ## Contributing
 
